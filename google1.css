@@ -1,0 +1,44 @@
+li{
+	display: inline;
+	margin-right: 15px;
+	margin-top: 12px;
+}
+li a{
+	color: black;
+}
+li a:hover{
+	color: black;
+}
+.fa-th{
+	font-size: 20px;
+	opacity: 0.6;
+	margin-top: 2px;
+}
+.fa-th:hover{
+	opacity: 0.9;
+}
+.fa-th:hover + .hide{
+	visibility: visible;
+}
+.hide{
+	font-size: 13px;
+	border: 1px solid black;
+	padding: 3px 6px;
+	margin-top: 9px;
+	visibility: hidden;
+}
+.height{
+	height: 58px;
+}
+@media screen and (max-width: 768px){
+	.height{
+		height: 18px;
+	}
+}
+.hr{
+	border-top: 1px solid #d9d9d9;
+}
+.in{
+	padding-top: 10px;
+	padding-left: 55px;
+}
